@@ -10,11 +10,21 @@ h1 {
 #start-here {
     border-style: solid;
     border-width: 2px;
+    padding-left: 15px;
+}
+
+#special-paragraph {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    background-color: greenyellow;
+    padding: 15px;
 }
 
 p {
     font-size: 12px;
     color: green;
+    margin: 15px;
 }
 
 div {
@@ -30,4 +40,12 @@ ol {
 
 ul{
     list-style: square;
+}
+
+img {
+    margin: 30px;
+}
+
+progress {
+    margin-left: 30px;
 }
