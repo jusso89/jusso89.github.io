@@ -25,6 +25,22 @@ header {
     background-color: hotpink;
 }
 
+nav {
+    background-color: lightblue;
+}
+
+section {
+    background-color: lightgreen;
+}
+
+article {
+    background-color: magenta;
+}
+
+aside {
+    background-color: maroon;
+}
+
 p {
     font-size: 12px;
     color: green;
