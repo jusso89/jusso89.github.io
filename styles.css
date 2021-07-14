@@ -41,6 +41,10 @@ aside {
     background-color: maroon;
 }
 
+footer {
+    background-color: mediumblue;
+}
+
 p {
     font-size: 12px;
     color: green;
