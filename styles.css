@@ -29,24 +29,22 @@ header {
     margin-left: 13%;
     padding-left: 5px;
     padding-bottom: 5px;
-    width: 90%;
+    width: 86%;
 }
 
 .side-navigation {
     background-color: lightblue;
     float: left;
     width: 10%;
+    height: 500px;
     position: absolute;
-    top: 100px;
+    top: 50px;
     padding: 10px;
     font-family: sans-serif;
 }
 
 .main-navigation {
     background-color: white;
-    width: 90%;
-    position: absolute;
-    top: 3px;
     padding: 10px;
     font-family: sans-serif;
     text-align: center;
@@ -57,7 +55,7 @@ section {
     margin-left: 13%;
     padding-left: 5px;
     padding-bottom: 5px;
-    width: 25%;
+    width: 86%;
 }
 
 article {
@@ -65,18 +63,18 @@ article {
     margin-left: 13%;
     padding-left: 5px;
     padding-bottom: 5px;
-    width: 25%;
+    width: 86%;
 }
 
 aside {
     background-color: maroon;
-    float: right;
-    width: 60%;
+    width: 86%;
     height: 1500px;
     margin-left: 13%;
     padding-left: 5px;
     padding-bottom: 5px;
-    overflow: auto;
+    position: relative;
+    top: 15px;
 }
 
 footer {
