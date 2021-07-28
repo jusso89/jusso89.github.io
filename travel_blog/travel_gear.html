@@ -36,13 +36,19 @@
                     <a class="nav-link" href="about.html">About</a>
                   </li>
               </div>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search">
+                <button class="btn btn-outline-standard my-2 my-sm-0" type="submit">Search</button>
+              </form>
             </div>
           </nav>
 
         <!-- Product cards -->
     <main>
         <div class="headerText">
-            <h2>When travelling, you need to carry only the essential gear. Here is my selection.</h2>
+            <h2>When travelling, you need to carry only the essential gear.</h2>
+            <br>
+            <h2>Here is my selection.</h2>
         </div>
         <!-- Logistics -->
         <div class="container px-4 py-5" id="custom-cards">
@@ -63,7 +69,7 @@
               </div>
 
               <div class="col">
-                <div class="card card-cover h-100 overflow-hidden text-black bg-light rounded-5 shadow-lg" style="background-image: url(child_carrier.jpg); background-size: cover; background-repeat: no-repeat; background-position: center;">
+                <div class="card card-cover h-100 overflow-hidden text-black bg-light rounded-5 shadow-lg" id="childCarrier">
                   <div class="travelGearText d-flex flex-column h-100 p-5 pb-3 text-black text-shadow-1">
                     <div class="d-flex flex-column h-100 p-5 pb-3 text-black text-shadow-1">
                       <a href="https://www.amazon.com/Deuter-Comfort-Child-Carrier-Backpack/dp/B08FF8JQDS/ref=bmx_rk206dio_2/140-1651155-9112715?pd_rd_w=m2W8w&pf_rd_p=1f75fbb3-7d95-464f-8182-952155c0316b&pf_rd_r=WCSWYR00DV6684WWQZWP&pd_rd_r=810c7ea8-f5b5-4095-a256-4524466dd67b&pd_rd_wg=lfHYk&pd_rd_i=B08FF8JQDS&psc=1" class="gearCardLink">  
@@ -75,7 +81,7 @@
               </div>
 
               <div class="col">
-                <div class="card card-cover h-100 overflow-hidden text-black bg-light rounded-5 shadow-lg" style="background-image: url(shoe.jpg); background-size: cover; background-repeat: no-repeat; background-position: center;">
+                <div class="card card-cover h-100 overflow-hidden text-black bg-light rounded-5 shadow-lg" id="shoe">
                   <div class="travelGearText d-flex flex-column h-100 p-5 pb-3 text-black text-shadow-1">
                     <div class="d-flex flex-column h-100 p-5 pb-3 text-black text-shadow-1">
                       <a href="https://www.amazon.com/Merrell-Flex-Walking-Shoes-Lichen/dp/B083SZYGXS/ref=sr_1_1?dchild=1&keywords=merrell%2Bmqm%2Bflex%2B2%2Bmid%2Bgore-tex&qid=1627470555&sr=8-1&th=1" class="gearCardLink">  
@@ -86,76 +92,53 @@
                 </div>
               </div>
 
-        <!-- Recreation -->
-
-          <div class="container px-4 py-5" id="custom-cards">
-            <h2 class="pb-2 border-bottom">Recreation</h2>
-        
-            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
-              <div class="col">
-                <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('unsplash-photo-1.jpg');">
-                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                    <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Short title, long jacket</h2>
-                    <ul class="d-flex list-unstyled mt-auto">
-                      <li class="me-auto">
-                        <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
-                      </li>
-                      <li class="d-flex align-items-center me-3">
-                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
-                        <small>Earth</small>
-                      </li>
-                      <li class="d-flex align-items-center">
-                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
-                        <small>3d</small>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-        
-              <div class="col">
-                <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('unsplash-photo-2.jpg');">
-                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                    <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Much longer title that wraps to multiple lines</h2>
-                    <ul class="d-flex list-unstyled mt-auto">
-                      <li class="me-auto">
-                        <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
-                      </li>
-                      <li class="d-flex align-items-center me-3">
-                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
-                        <small>Pakistan</small>
-                      </li>
-                      <li class="d-flex align-items-center">
-                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
-                        <small>4d</small>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-        
-              <div class="col">
-                <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('unsplash-photo-3.jpg');">
-                  <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                    <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Another longer title belongs here</h2>
-                    <ul class="d-flex list-unstyled mt-auto">
-                      <li class="me-auto">
-                        <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
-                      </li>
-                      <li class="d-flex align-items-center me-3">
-                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
-                        <small>California</small>
-                      </li>
-                      <li class="d-flex align-items-center">
-                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
-                        <small>5d</small>
-                      </li>
-                    </ul>
+              <!-- Electronics -->
+        <div class="container px-4 py-5" id="custom-cards">
+          <h2 class="pb-2 border-bottom">Electronics</h2>
+      
+          <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+            
+            <div class="col">
+              <div class="card card-cover h-100 overflow-hidden text-black bg-light rounded-5 shadow-lg" id="kindle">
+                <div class="travelGearText d-flex flex-column h-100 p-5 pb-3 text-black text-shadow-1">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-black text-shadow-1">
+                    <a href="https://www.amazon.com/All-new-Kindle-Paperwhite-Waterproof-International/dp/B07741S7Y8/ref=sr_1_4?dchild=1&keywords=kindle&qid=1627485090&s=amazon-devices&sr=1-4" class="gearCardLink">  
+                      <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">You only need this for all your books.</h2>
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
+
+            <div class="col">
+              <div class="card card-cover h-100 overflow-hidden text-black bg-light rounded-5 shadow-lg" id="macbook">
+                <div class="travelGearText d-flex flex-column h-100 p-5 pb-3 text-black text-shadow-1">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-black text-shadow-1">
+                    <a href="https://www.amazon.com/Apple-MacBook-13-inch-256GB-Storage/dp/B08N5LNQCX/ref=sr_1_2?dchild=1&keywords=macbook&qid=1627485748&sr=8-2" class="gearCardLink">  
+                      <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">The swiss army knife for all your computing needs.</h2>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card card-cover h-100 overflow-hidden text-black bg-light rounded-5 shadow-lg" id="gopro">
+                <div class="travelGearText d-flex flex-column h-100 p-5 pb-3 text-black text-shadow-1">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-black text-shadow-1">
+                    <a href="https://www.amazon.com/GoPro-HERO9-Black-Waterproof-Stabilization/dp/B08DK5ZH44/ref=sr_1_3?dchild=1&keywords=gopro&qid=1627485788&sr=8-3" class="gearCardLink">  
+                      <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">The tool for preserving and sharing your travel moments.</h2>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+             
+
+            </div>
           </div>
+        </div>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     </body>
